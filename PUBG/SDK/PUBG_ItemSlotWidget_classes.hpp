@@ -161,6 +161,7 @@ public:
 	void UI_Gamepad_B_Released();
 	void Tick(struct FGeometry* MyGeometry, float* InDeltaTime);
 	void OnButtonClicked(TEnumAsByte<EPopupButtonID> ButtonID);
+	void OnInputWidgetInputB();
 	void ExecuteUbergraph_ItemSlotWidget(int EntryPoint);
 	void RefreshFocus__DelegateSignature();
 	void OnRefreshInnerList__DelegateSignature();

@@ -29,12 +29,12 @@ public:
 
 
 // Class HTML5Networking.WebSocketNetDriver
-// 0x0010 (0x0418 - 0x0408)
+// 0x0010 (0x0428 - 0x0418)
 class UWebSocketNetDriver : public UNetDriver
 {
 public:
-	int                                                WebSocketPort;                                            // 0x0408(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData)
-	unsigned char                                      UnknownData00[0xC];                                       // 0x040C(0x000C) MISSED OFFSET
+	int                                                WebSocketPort;                                            // 0x0418(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData)
+	unsigned char                                      UnknownData00[0xC];                                       // 0x041C(0x000C) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

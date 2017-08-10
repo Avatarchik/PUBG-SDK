@@ -1614,6 +1614,23 @@ void UWeaponEquipmentSlotWidget_C::CustomEvent_2()
 }
 
 
+// Function WeaponEquipmentSlotWidget.WeaponEquipmentSlotWidget_C.OnInputWidgetInputB
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWeaponEquipmentSlotWidget_C::OnInputWidgetInputB()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponEquipmentSlotWidget.WeaponEquipmentSlotWidget_C.OnInputWidgetInputB");
+
+	UWeaponEquipmentSlotWidget_C_OnInputWidgetInputB_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function WeaponEquipmentSlotWidget.WeaponEquipmentSlotWidget_C.ExecuteUbergraph_WeaponEquipmentSlotWidget
 // (FUNC_HasDefaults)
 // Parameters:

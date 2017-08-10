@@ -1048,6 +1048,23 @@ void UInventorySlotBaseWidget_C::OnWidgetInputX()
 }
 
 
+// Function InventorySlotBaseWidget.InventorySlotBaseWidget_C.OnInputWidgetInputB
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UInventorySlotBaseWidget_C::OnInputWidgetInputB()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventorySlotBaseWidget.InventorySlotBaseWidget_C.OnInputWidgetInputB");
+
+	UInventorySlotBaseWidget_C_OnInputWidgetInputB_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function InventorySlotBaseWidget.InventorySlotBaseWidget_C.ExecuteUbergraph_InventorySlotBaseWidget
 // (FUNC_HasDefaults)
 // Parameters:

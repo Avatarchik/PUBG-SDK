@@ -314,6 +314,11 @@ struct UInventorySlotBaseWidget_C_OnWidgetInputX_Params
 {
 };
 
+// Function InventorySlotBaseWidget.InventorySlotBaseWidget_C.OnInputWidgetInputB
+struct UInventorySlotBaseWidget_C_OnInputWidgetInputB_Params
+{
+};
+
 // Function InventorySlotBaseWidget.InventorySlotBaseWidget_C.ExecuteUbergraph_InventorySlotBaseWidget
 struct UInventorySlotBaseWidget_C_ExecuteUbergraph_InventorySlotBaseWidget_Params
 {

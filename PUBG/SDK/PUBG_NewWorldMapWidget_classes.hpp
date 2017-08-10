@@ -76,6 +76,7 @@ public:
 	}
 
 
+	void OnHideWorldMap();
 	void CheckReplayStatus();
 	void PadGuideMoveRight(float Add);
 	void PadGuideMoveUp(float Add);

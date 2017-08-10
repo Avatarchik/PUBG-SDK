@@ -14,6 +14,11 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function NewWorldMapWidget.NewWorldMapWidget_C.OnHideWorldMap
+struct UNewWorldMapWidget_C_OnHideWorldMap_Params
+{
+};
+
 // Function NewWorldMapWidget.NewWorldMapWidget_C.CheckReplayStatus
 struct UNewWorldMapWidget_C_CheckReplayStatus_Params
 {

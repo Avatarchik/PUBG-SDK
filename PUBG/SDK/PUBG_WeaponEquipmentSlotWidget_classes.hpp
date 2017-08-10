@@ -153,6 +153,7 @@ public:
 	void CustomEvent_1();
 	void OnWidgetInputX();
 	void CustomEvent_2();
+	void OnInputWidgetInputB();
 	void ExecuteUbergraph_WeaponEquipmentSlotWidget(int EntryPoint);
 	void OnDragLeaveWeaponSlot__DelegateSignature(int SlotIndex);
 	void OnDragEnterWeaponSlot__DelegateSignature(int SlotIndex);

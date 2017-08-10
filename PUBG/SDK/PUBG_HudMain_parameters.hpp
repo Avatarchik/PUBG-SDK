@@ -14,6 +14,11 @@ namespace Classes
 //Parameters
 //---------------------------------------------------------------------------
 
+// Function HudMain.HudMain_C.OnKey_ReplayMenuOrEscape
+struct UHudMain_C_OnKey_ReplayMenuOrEscape_Params
+{
+};
+
 // Function HudMain.HudMain_C.InitForReplay
 struct UHudMain_C_InitForReplay_Params
 {

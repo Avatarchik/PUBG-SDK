@@ -98,6 +98,7 @@ public:
 	void Construct();
 	void UI_Gamepad_B();
 	void OnWidgetInputX();
+	void OnInputWidgetInputB();
 	void ExecuteUbergraph_InventorySlotBaseWidget(int EntryPoint);
 	void RefreshFocus__DelegateSignature();
 };

@@ -1705,6 +1705,23 @@ void UItemSlotWidget_C::OnButtonClicked(TEnumAsByte<EPopupButtonID> ButtonID)
 }
 
 
+// Function ItemSlotWidget.ItemSlotWidget_C.OnInputWidgetInputB
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UItemSlotWidget_C::OnInputWidgetInputB()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ItemSlotWidget.ItemSlotWidget_C.OnInputWidgetInputB");
+
+	UItemSlotWidget_C_OnInputWidgetInputB_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function ItemSlotWidget.ItemSlotWidget_C.ExecuteUbergraph_ItemSlotWidget
 // (FUNC_HasDefaults)
 // Parameters:

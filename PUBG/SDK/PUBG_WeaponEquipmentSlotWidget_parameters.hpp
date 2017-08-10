@@ -482,6 +482,11 @@ struct UWeaponEquipmentSlotWidget_C_CustomEvent_2_Params
 {
 };
 
+// Function WeaponEquipmentSlotWidget.WeaponEquipmentSlotWidget_C.OnInputWidgetInputB
+struct UWeaponEquipmentSlotWidget_C_OnInputWidgetInputB_Params
+{
+};
+
 // Function WeaponEquipmentSlotWidget.WeaponEquipmentSlotWidget_C.ExecuteUbergraph_WeaponEquipmentSlotWidget
 struct UWeaponEquipmentSlotWidget_C_ExecuteUbergraph_WeaponEquipmentSlotWidget_Params
 {

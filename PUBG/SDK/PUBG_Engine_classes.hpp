@@ -10878,7 +10878,7 @@ public:
 
 
 // Class Engine.NetDriver
-// 0x03E0 (0x0408 - 0x0028)
+// 0x03F0 (0x0418 - 0x0028)
 class UNetDriver : public UObject
 {
 public:
@@ -10909,7 +10909,7 @@ public:
 	struct FName                                       NetDriverName;                                            // 0x00E0(0x0008) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData)
 	unsigned char                                      UnknownData05[0x8];                                       // 0x00E8(0x0008) MISSED OFFSET
 	float                                              Time;                                                     // 0x00F0(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData)
-	unsigned char                                      UnknownData06[0x314];                                     // 0x00F4(0x0314) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x324];                                     // 0x00F4(0x0324) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -10999,11 +10999,11 @@ public:
 
 
 // Class Engine.DemoNetDriver
-// 0x04F8 (0x0900 - 0x0408)
+// 0x04F8 (0x0910 - 0x0418)
 class UDemoNetDriver : public UNetDriver
 {
 public:
-	unsigned char                                      UnknownData00[0x4F8];                                     // 0x0408(0x04F8) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x4F8];                                     // 0x0418(0x04F8) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
